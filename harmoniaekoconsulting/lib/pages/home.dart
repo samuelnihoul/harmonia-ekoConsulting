@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/appBar.dart';
+
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -11,4 +12,3 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-~
