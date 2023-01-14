@@ -6,6 +6,7 @@ import 'pages/contact.dart';
 import 'pages/about.dart';
 import 'pages/notreOffre.dart';
 import 'pages/nosClients.dart';
+import 'colors.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,9 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Harmonia Eko Consulting',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        theme: MyTheme.defaultTheme,
         home: MyHomePage(),
         routes: {
           '/about': (context) => About(),
